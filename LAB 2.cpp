@@ -73,7 +73,7 @@ void sapXepHoTen(sinhVien sv[], int n){
     int i, j, min_idx;
  
     for (i = 0; i < n - 1; i++) {
- 
+  
         min_idx = i;
         for (j = i + 1; j < n; j++) {
             if (sv[j].hoTen > sv[min_idx].hoTen)
